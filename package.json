@@ -1,0 +1,16 @@
+{
+  "name": "network_oop_example",
+  "version": "1.0.0",
+  "description": "example how to implement interaction between network / server / user in oop style",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "author": "",
+  "license": "ISC"
+}
