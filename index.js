@@ -2,6 +2,8 @@ var User = require('./user.js');
 var Server = require('./server.js');
 var Network = require('./network.js');
 
+var serverAdress = 13;
+
 var network = new Network();
 
 var Bob = new User('Bob', network);
@@ -14,8 +16,8 @@ John.enterInNetwok();
 
 server.connectToNetwork();
 
-Bob.enterOnServer(13);
-John.enterOnServer(13);
+Bob.enterOnServer(serverAdress);
+John.enterOnServer(serverAdress);
 
 Bob.exitFormServer();
 John.exitFormServer();
